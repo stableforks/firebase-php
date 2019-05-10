@@ -15,8 +15,8 @@ Interact with `Google Firebase <https://firebase.google.com>`_ from your PHP app
 .. image:: https://img.shields.io/packagist/dt/kreait/firebase-php.svg
    :target: https://packagist.org/packages/kreait/firebase-php
    :alt: Total downloads
-.. image:: https://badges.gitter.im/kreait/firebase-php.svg
-   :target: https://gitter.im/kreait/firebase-php
+.. image:: https://img.shields.io/discord/523866370778333184.svg?color=7289da&logo=discord
+   :target: https://discord.gg/nbgVfty
    :alt: Community chat
 
 .. note::
@@ -26,8 +26,6 @@ Interact with `Google Firebase <https://firebase.google.com>`_ from your PHP app
     `instructions for setting up the client JavaScript SDK <https://firebase.google.com/docs/web/setup>`_.
 
 The source code can be found at https://github.com/kreait/firebase-php/ .
-
-A ready-to-go repository with usage examples can be found at https://github.com/jeromegamez/firebase-php-examples .
 
 **********
 User Guide
@@ -44,4 +42,5 @@ User Guide
     storage
     remote-config
     cloud-messaging
+    tutorials
     troubleshooting

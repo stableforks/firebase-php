@@ -84,6 +84,7 @@ Get information about a specific user
 .. code-block:: php
 
     $user = $auth->getUser('some-uid');
+    $user = $auth->getUserByEmail('user@domain.tld');
 
 *************
 Create a user
@@ -289,7 +290,11 @@ You can send a verification email to a user with the following method:
 
     // The method has an optional second parameter to specify where the user should be redirected
     // to after they have have verified their email address
-    $auth->sendPasswordResetEmail($uid, 'https//my-application.com/email-verified');
+    $auth->sendEmailVerification($uid, 'https//my-application.com/email-verified');
+
+    // The method has an optional third parameter to specifiy the locale of the sent email
+    // Without it, your Firebase project's configured default language will be used
+    $auth->sendEmailVerification('user@domain.tld', null, 'de');
 
 
 ***************************
@@ -305,6 +310,11 @@ You can send an email allowing a user to reset their password with the following
     // The method has an optional second parameter to specify where the user should be redirected
     // to after they have have reset their password
     $auth->sendPasswordResetEmail('user@domain.tld', 'https//my-application.com/password-reset');
+
+    // The method has an optional third parameter to specifiy the locale of the sent email
+    // Without it, your Firebase project's configured default language will be used
+    $auth->sendPasswordResetEmail('user@domain.tld', null, 'fr');
+
 
 *******************************
 Invalidate user sessions [#f1]_

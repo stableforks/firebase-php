@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## 4.20.1 - 2019-04-25
+
+* Fixed `TypeError`s when processing certain API exceptions ([#295](https://github.com/kreait/firebase-php/issues/295))
+
+## 4.20.0 - 2019-03-28
+
+* Sent emails can now be localized by providing a `$locale` parameter to the following methods:
+  * `Kreait\Firebase\Auth::sendEmailVerification($uid, $continueUrl = null, $locale = null)`
+  * `Kreait\Firebase\Auth::sendPasswordResetEmail($email, $continueUrl = null, $locale = null)`
+
+## 4.19.1 - 2019-03-10
+
+* Improved the error message when encountering an invalid Service Account specification to help developers use
+  the correct one (provided by [@puf](https://github.com/puf) in [this StackOverflow answer](https://stackoverflow.com/a/55081397/284325))
+
 ## 4.19.0 - 2019-02-09
 
 * When verifying ID tokens, allowed time inconsistencies now include the `auth_time` clime, in addition to the `iat` claim. ([#278](https://github.com/kreait/firebase-php/issues/278))

@@ -104,7 +104,7 @@ Issues/Support
 **************
 
 - For bugs, feature requests and past issues: `Github issue tracker <https://github.com/kreait/firebase-php/issues/>`_
-- For help with and discussion about the PHP SDK: `Gitter Channel dedicated to this library <https://gitter.im/kreait/firebase-php>`_
+- For help with and discussion about the PHP SDK: `Discord channel dedicated to this library <https://discord.gg/nbgVfty>`_
 - For questions about Firebase in general: `Stack Overflow <https://stackoverflow.com/questions/tagged/firebase>`_ and the `Firebase Slack Community <https://firebase.community>`_.
 
 
@@ -114,7 +114,7 @@ License
 
 Licensed using the `MIT license <http://opensource.org/licenses/MIT>`_.
 
-    Copyright (c) 2016-2018 Jérôme Gamez <https://github.com/jeromegamez> <jerome@gamez.name>
+    Copyright (c) Jérôme Gamez <https://github.com/jeromegamez> <jerome@gamez.name>
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
